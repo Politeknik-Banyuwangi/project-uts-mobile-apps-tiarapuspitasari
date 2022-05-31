@@ -29,7 +29,7 @@ class Chats extends StatelessWidget {
               subtitle: Row(
                 children: [
                   Icon(
-                    Icons.done_all_rounded,
+                    Icons.access_alarm,
                     color: Colors.blue,
                   ),
                   SizedBox(
