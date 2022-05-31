@@ -38,7 +38,7 @@ class Chats extends StatelessWidget {
                   Text('Yuk besok kita meet time?'),
                 ],
               ),
-              trailing: Text('07.00'),
+              trailing: Text('07:00'),
             ),
             ListTile(
               leading: CircleAvatar(
@@ -61,7 +61,7 @@ class Chats extends StatelessWidget {
                   Text('Bagaimana kabar Anda?'),
                 ],
               ),
-              trailing: Text('18.00'),
+              trailing: Text('18:00'),
             ),
             ListTile(
               leading: CircleAvatar(

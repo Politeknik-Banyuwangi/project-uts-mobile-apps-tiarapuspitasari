@@ -19,6 +19,50 @@ class Calls extends StatelessWidget {
             SizedBox(
               height: 10,
             ),
+            ListTile(
+              leading: CircleAvatar(
+                backgroundImage: NetworkImage("https://i.postimg.cc/V60hvp6m/2022-05-31-at-13-21-53.jpg"),
+                radius: 30,
+              ),
+              title: Text(
+                'Indah Dwi',
+                style: TextStyle(fontWeight: FontWeight.bold),
+              ),
+              subtitle: Row(
+                children: [
+                  Icon(
+                    Icons.call_received,
+                    color: Colors.green,
+                  ),
+                  SizedBox(
+                    width: 3.0,
+                  ),
+                ],
+              ),
+              trailing: Text('Jan 03, 18:00'),
+            ),
+            ListTile(
+              leading: CircleAvatar(
+                backgroundImage: NetworkImage("https://i.postimg.cc/T2HT1Lcc/2022-05-31-at-13-21-54.jpg"),
+                radius: 30,
+              ),
+              title: Text(
+                'Devi',
+                style: TextStyle(fontWeight: FontWeight.bold),
+              ),
+              subtitle: Row(
+                children: [
+                  Icon(
+                    Icons.call_received,
+                    color: Colors.green,
+                  ),
+                  SizedBox(
+                    width: 3.0,
+                  ),
+                ],
+              ),
+              trailing: Text('Jan 20, 05:10'),
+            ),
             callPhone("Sinta", Icons.call_received, Colors.green, "Jan 13, 02:13", NetworkImage("https://i.postimg.cc/T2HT1Lcc/2022-05-31-at-13-21-54.jpg")),
             callPhone("Awaliya", Icons.call_made, Colors.green, "Feb 08, 10:30", NetworkImage("https://i.postimg.cc/rpd5xkL0/01.jpg")),
             callPhone("Devy", Icons.call_received, Colors.green, "Feb 17, 05:20", NetworkImage("https://i.postimg.cc/QNW9bbPP/nail-art-lucu-dari-bunga-bunga-kering-yang-terlihat-manja-Mye-KMRr-W1k.jpg")),
