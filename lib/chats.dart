@@ -39,16 +39,14 @@ class Chats extends StatelessWidget {
         },
         child: ListView(
           children: [
-            Text(
-              "Indah Dwi",
-              style: TextStyle(color: Colors.black, fontWeight: FontWeight.w500),
-            ),
+            getChats("Sasuke", "Just now"),
+            getChats("Ronaldo", "Today, 2:8 pm"),
+            getChats("Moh salah", "6 minutes ago"),
+            getChats("Rossi", "25 minutes ago"),
+            getChats("Torres", "Yestrday, 8:45 pm"),
+            getChats("Omar Hassan", "Yestrday, 5:5 Am"),
             SizedBox(
               height: 10,
-            ),
-            Text(
-              "Selamat siang , bagaimana kabar anda?",
-              style: TextStyle(color: Colors.grey.shade700),
             ),
           ],
         ),
