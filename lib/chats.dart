@@ -19,7 +19,30 @@ class Chats extends StatelessWidget {
             ),
             ListTile(
               leading: CircleAvatar(
-                backgroundImage: NetworkImage("https://i.postimg.cc/QNW9bbPP/nail-art-lucu-dari-bunga-bunga-kering-yang-terlihat-manja-Mye-KMRr-W1k.jpg"),
+                backgroundImage: NetworkImage("https://i.postimg.cc/6pVCh07w/Image-2022-05-31-at-13-21-54.jpg"),
+                radius: 30,
+              ),
+              title: Text(
+                'Anita Fransiska',
+                style: TextStyle(fontWeight: FontWeight.bold),
+              ),
+              subtitle: Row(
+                children: [
+                  Icon(
+                    Icons.done_all_rounded,
+                    color: Colors.blue,
+                  ),
+                  SizedBox(
+                    width: 3.0,
+                  ),
+                  Text('Yuk besok kita meet time?'),
+                ],
+              ),
+              trailing: Text('07.00'),
+            ),
+            ListTile(
+              leading: CircleAvatar(
+                backgroundImage: NetworkImage("https://i.postimg.cc/V60hvp6m/2022-05-31-at-13-21-53.jpg"),
                 radius: 30,
               ),
               title: Text(
