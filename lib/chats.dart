@@ -84,7 +84,7 @@ class Chats extends StatelessWidget {
                   Text('Ujian nya sudah selesai'),
                 ],
               ),
-              trailing: Text('05.10'),
+              trailing: Text('05:10'),
             ),
             chatPhone("Hisyam", "Dimana posisi?", "07:06", Icons.done_all, Colors.blue, NetworkImage("https://i.postimg.cc/3wxWvMPM/panorama-alam-terasiring-di-desa-pendoworejo-20170608-223549.jpg")),
             chatPhone("Sumartatik", "Besok jadi ?", "12:24", Icons.done, Colors.grey, NetworkImage("https://i.postimg.cc/0yQqG82C/gambar1.jpg")),
