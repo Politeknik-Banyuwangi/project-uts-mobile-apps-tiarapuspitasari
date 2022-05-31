@@ -15,7 +15,7 @@ class Chats extends StatelessWidget {
     );
   }
 
-  Widget getStory(title, subTitle) {
+  Widget getChats(title, subTitle) {
     return ListTile(
       leading: CircleAvatar(
         backgroundImage: NetworkImage("https://i0.wp.com/www.cirebonkota.go.id/wp-content/uploads/2018/05/jokowi.jpg"),
@@ -39,8 +39,16 @@ class Chats extends StatelessWidget {
         },
         child: ListView(
           children: [
+            Text(
+              "Indah Dwi",
+              style: TextStyle(color: Colors.black, fontWeight: FontWeight.w500),
+            ),
             SizedBox(
               height: 10,
+            ),
+            Text(
+              "Selamat siang , bagaimana kabar anda?",
+              style: TextStyle(color: Colors.grey.shade700),
             ),
           ],
         ),
